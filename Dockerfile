@@ -20,4 +20,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5001
 
 # Run SpiderFoot
-CMD ["python3", "./sf.py", "-l", "127.0.0.1:5001"]
+CMD ["python3", "./sf.py", "-l", "0.0.0.0:5001"]
